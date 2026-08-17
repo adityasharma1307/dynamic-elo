@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Cloned upstream data (regenerate via `git clone` / data_ingestion.py, see README)
+# tennis_atp contains its own nested .git repo -- never commit it as a subfolder.
+data/tennis_atp/
+data/tennis_MatchChartingProject/
+
+# Large media assets -- exceed or approach GitHub's 100MB per-file limit and
+# don't belong in git history. Host these as GitHub Release assets instead
+# (Releases -> Draft a new release -> attach binaries) or via Git LFS.
+Dynamic_Elo.pptx.pdf
+demo.mp4
+PPT.pptx
+
+# Generated reports (data/reports/*.xlsx, including the dashboard) ARE kept
+# in version control on purpose -- they're small (a few hundred KB total)
+# and let a repo visitor see real results without running the pipeline.
+# Re-run baseline.py / dynamic.py / build_dashboard.py to refresh them.
