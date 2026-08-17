@@ -1,4 +1,9 @@
 # Dynamic ELO: Tennis Grand Slam Prediction with Contextual Match Modeling
+[![Python](https://img.shields.io/badge/python-3.9%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![XGBoost](https://img.shields.io/badge/XGBoost-model-ff6600?logo=xgboost&logoColor=white)](https://xgboost.readthedocs.io/)
+[![pandas](https://img.shields.io/badge/pandas-2.x-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![Live Dashboard](https://img.shields.io/badge/dashboard-live%20demo-2563eb)](https://<your-username>.github.io/dynamic-elo/)
 
 A machine learning pipeline that predicts ATP Grand Slam match outcomes by augmenting traditional ELO ratings with three contextual features capturing the **physical**, **psychological**, and **physiological** dimensions of a tennis match. The Dynamic ELO model achieves **74.5% accuracy** on the 2024 Grand Slam season (486 unbiased matches), beating the 67–70% industry standard ceiling for pre-match prediction with public data.
 
